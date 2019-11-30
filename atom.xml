@@ -5,12 +5,12 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://xuyue.github.io/"/>
   <updated>2019-11-09T16:17:40.048Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://xuyue.github.io/</id>
   
   <author>
-    <name>xuyue</name>
+    <name>徐越</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2019/11/10/hello-world/"/>
-    <id>http://yoursite.com/2019/11/10/hello-world/</id>
+    <link href="https://xuyue.github.io/2019/11/10/hello-world/"/>
+    <id>https://xuyue.github.io/2019/11/10/hello-world/</id>
     <published>2019-11-09T16:17:40.047Z</published>
     <updated>2019-11-09T16:17:40.048Z</updated>
     

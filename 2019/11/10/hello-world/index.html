@@ -11,16 +11,17 @@
 
 
     <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="keywords" content="python,c#,opencv,mongodb">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hello World">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;10&#x2F;hello-world&#x2F;index.html">
+<meta property="og:url" content="https:&#x2F;&#x2F;xuyue.github.io&#x2F;2019&#x2F;11&#x2F;10&#x2F;hello-world&#x2F;index.html">
 <meta property="og:site_name" content="xy&#39;s blog">
 <meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;images&#x2F;og_image.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;xuyue.github.io&#x2F;images&#x2F;og_image.png">
 <meta property="og:updated_time" content="2019-11-09T16:17:40.048Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;images&#x2F;og_image.png">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;xuyue.github.io&#x2F;images&#x2F;og_image.png">
 
 
 
@@ -164,43 +165,32 @@
 
 
 
+
+
+
+
 <div class="card">
     <div class="card-content">
-        <h3 class="menu-label has-text-centered">喜欢这篇文章？打赏一下作者吧</h3>
-        <div class="buttons is-centered">
-            
-                
-<div class="notification is-danger">
-    You forgot to set the <code>qrcode</code> for Alipay. Please set it in <code>_config.yml</code>.
-</div>
+        <h3 class="title is-5 has-text-weight-normal">评论</h3>
+        
+<div id="comment-container"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+	var gitment = new Gitment({
+		id: 'd55275b2b2d42364800bd1cbd1a1bcce',
+		owner: 'xuyue',
+		repo: 'xuyue.github.io',
+		oauth: {
+			client_id: '8e5395db7b9273b65160',
+			client_secret: 'cb971ed4038d0ccd9c5bf030dc8555928fbb3be6',
+		},
+	})
+	gitment.render('comment-container')
+</script>
 
-                
-                
-<div class="notification is-danger">
-    You forgot to set the <code>qrcode</code> for Wechat. Please set it in <code>_config.yml</code>.
-</div>
-
-                
-                <!-- Visit https://www.paypal.com/donate/buttons/ to get your donate button -->
-
-<div class="notification is-danger">
-    You forgot to set the <code>business</code> and <code>currency_code</code> for Paypal. Please set it in <code>_config.yml</code>.
-</div>
-
-                
-                
-<div class="notification is-danger">
-    You forgot to set the <code>url</code> Patreon. Please set it in <code>_config.yml</code>.
-</div>
-
-                
-        </div>
     </div>
 </div>
-
-
-
-
 </div>
                 
 
@@ -465,7 +455,7 @@
                 
                 </a>
                 <p class="is-size-7">
-                &copy; 2019 xuyue&nbsp;
+                &copy; 2019 徐越&nbsp;
                 Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> & <a
                         href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank">Icarus</a>
                 
@@ -551,7 +541,7 @@ document.addEventListener('DOMContentLoaded', function () {
 </script>
     
     
-<a id="back-to-top" title="回到顶端" href="javascript:;" target="_blank" rel="noopener">
+<a id="back-to-top" title="回到顶端">
     <i class="fas fa-chevron-up"></i>
 </a>
 <script src="/js/back-to-top.js" defer></script>
