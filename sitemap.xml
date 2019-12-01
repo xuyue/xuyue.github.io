@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://xuyue.github.io/about/index.html</loc>
+    <loc>https://xuyue.github.io/2019/12/01/test/</loc>
     
-    <lastmod>2019-11-30T05:49:48.010Z</lastmod>
+    <lastmod>2019-11-30T16:08:33.475Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://xuyue.github.io/2019/11/10/hello-world/</loc>
     
-    <lastmod>2019-11-09T16:17:40.048Z</lastmod>
+    <lastmod>2019-11-30T15:53:39.585Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://xuyue.github.io/about/index.html</loc>
+    
+    <lastmod>2019-11-30T05:49:48.010Z</lastmod>
     
   </url>
   
